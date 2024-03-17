@@ -36,3 +36,26 @@ header{
 body{
     background-color: aquamarine;
 }
+
+/* MAIN */
+#grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    margin: 30px auto;
+    align-content: flex-start;
+    
+}
+.square{
+    width: calc(100% / 10);
+    height: calc(100% / 10);
+    background-color: bisque;
+    font-size: 20px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
