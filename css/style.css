@@ -1,0 +1,38 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+
+/* HEADER */
+header{
+    background-color: #fff;
+    min-height: 70px;
+    padding: 10px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title img{
+    max-width: 10%;
+    margin-right: 10px;
+}
+.text-logo{
+    display: flex;
+    align-items: center;
+}
+.title button{
+    padding: 0 25px;
+    cursor: pointer;
+}
+
+/* BODY */
+body{
+    background-color: aquamarine;
+}
